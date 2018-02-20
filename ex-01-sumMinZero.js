@@ -5,6 +5,17 @@
 //
 //------------------------------------------------------------------
 
+
+function sumMinZero(x, y) {
+	if ((x + y) < 0) {
+		return 0
+	}
+	return x + y
+}
+const printAct01 = sumMinZero(10, 10)
+console.log(printAct01)
+
+
 console.assert(sumMinZero(10, 10) === 20)
 console.assert(sumMinZero(30, 10) === 40)
 console.assert(sumMinZero(-30, 10) === 0)
